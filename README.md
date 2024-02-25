@@ -17,3 +17,5 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+Therefore there is some constant k in c that satisfies $\forall n\ge n_0, f(n) < k g(n)$
+Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists n_0 and c: f(n) < c g(n)$
