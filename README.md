@@ -20,4 +20,4 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 Therefore there is some constant k in c that satisfies $\forall n\ge n_0, f(n) < k g(n)$
 
-Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists k: f(n) < k g(n)$ and $\exists q: \forall n > q$ where in this case q is n_0.
+Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists c > 0, \exists n_0, \forall n > n_0: f(n) < c g(n)$
