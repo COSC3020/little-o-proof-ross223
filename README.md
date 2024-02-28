@@ -18,7 +18,7 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-So choosing some arbituary constant in c, k satisfies $\forall n\ge n_0, f(n) < k g(n)$
+So choosing some arbituary constant k in c; k satisfies $\forall n\ge n_0, f(n) < k g(n)$
 
 By basic algebra $f(n) \le k g(n)$
 
