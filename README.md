@@ -18,6 +18,8 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-Therefore there is some constant k in c that satisfies $\forall n\ge n_0, f(n) < k g(n)$
+So choosing some arbituary constant in c, k satisfies $\forall n\ge n_0, f(n) < k g(n)$
 
-Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists c > 0, \exists n_0 > 0, \forall n \ge n_0: f(n) \le c g(n)$
+By basic algebra $f(n) \le k g(n)$
+
+Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists k > 0, \exists n_0 > 0, \forall n \ge n_0: f(n) \le k g(n)$
