@@ -18,10 +18,10 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-So choosing some arbituary real positive constant k; k satisfies $\forall n\ge n_0, f(n) < k g(n)$
+So choosing some arbituary real positive constant c; c satisfies $\forall n\ge n_0, f(n) < c g(n)$
 
-k has to exist as defined and n_0 exists by definition of little o.
+c and n_0 have to exist by the definition of little o.
 
-Since $f(n) < k g(n)$ this implies that $f(n) \le k g(n)$ due to the definition of less than equal.
+Since $f(n) < c g(n)$ this implies that $f(n) \le c g(n)$ due to the definition of less than equal.
 
-Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists k > 0, \exists n_0 > 0, \forall n \ge n_0: f(n) \le k g(n)$
+Therefore $f(n)\in O(g(n))$ based on the definition $f(n)\in O(g(n)) \iff \exists c > 0, \exists n_0 > 0, \forall n \ge n_0: f(n) \le c g(n)$
